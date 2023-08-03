@@ -4,7 +4,7 @@ const generatePDF = require("./utils/pdfGenerator");
 
 const db = async () =>
   mongoose.connect(
-    `mongodb+srv://thakurthegr8:awskol9897@cluster0.93tbw3c.mongodb.net/?retryWrites=true&w=majority`,
+    `mongodb+srv://"":""@""/?retryWrites=true&w=majority`,
     { useNewUrlParser: true }
   );
 db();
